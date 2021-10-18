@@ -9,9 +9,9 @@ interface PostProps {
 
 
 export default function Post (props:PostProps) {
-    console.log(props)
-    return <div>
-        <h1> {props.post.title} </h1>
-        <p> {props.post.content} </p>
-    </div>
+	console.log(props);
+	return <div>
+		<h1> {props.post.title} </h1>
+		<p> {props.post.content} </p>
+	</div>;
 }
